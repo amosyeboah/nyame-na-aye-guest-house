@@ -1,30 +1,40 @@
 import React, { useState } from 'react';
 import { X, ChevronLeft, ChevronRight } from 'lucide-react';
+import room1 from '../asset/room1.jpg';
+import reception1 from '../asset/reception1.jpg';
+import recept from '../asset/recept.jpg';
+import outside from '../asset/outside.jpg'
+import interior1 from '../asset/interior1.jpg'
+import front1 from '../asset/front1.jpg';
+import room2 from '../asset/room2.jpg';
+import room3 from '../asset/room3.jpg';
+import room4 from '../asset/room4.jpg';
+import bathroom from '../asset/bathroom.jpg';
 
 const galleryImages = [
   {
     id: 1,
-    src: 'https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?auto=compress&cs=tinysrgb&w=800',
+    src: room1,
     title: 'Deluxe Queen Room',
     category: 'rooms'
   },
   {
     id: 2,
-    src: 'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=800',
-    title: 'Family Suite Living Area',
+    src: room2,
+    title: 'Standard suite room',
     category: 'rooms'
   },
   {
     id: 3,
-    src: 'https://images.pexels.com/photos/1058063/pexels-photo-1058063.jpeg?auto=compress&cs=tinysrgb&w=800',
-    title: 'Luxury King Suite',
+    src: room3,
+    title: 'Single Bed suite',
     category: 'rooms'
   },
   {
     id: 4,
-    src: 'https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg?auto=compress&cs=tinysrgb&w=800',
-    title: 'Property Exterior',
-    category: 'exterior'
+    src: room4,
+    title: 'Luxury King Suite',
+    category: 'rooms'
   },
   {
     id: 5,
@@ -34,43 +44,43 @@ const galleryImages = [
   },
   {
     id: 6,
-    src: 'https://images.pexels.com/photos/1743227/pexels-photo-1743227.jpeg?auto=compress&cs=tinysrgb&w=800',
+    src: reception1,
     title: 'Elegant Bathroom',
-    category: 'amenities'
+    category: 'exterior'
   },
   {
     id: 7,
     src: 'https://images.pexels.com/photos/941861/pexels-photo-941861.jpeg?auto=compress&cs=tinysrgb&w=800',
     title: 'Outdoor Pool Area',
-    category: 'amenities'
+    category: 'exterior'
   },
   {
     id: 8,
-    src: 'https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?auto=compress&cs=tinysrgb&w=800',
-    title: 'Restaurant Dining',
-    category: 'amenities'
+    src: interior1,
+    title: 'front Desk Space',
+    category: 'exterior'
   },
   {
     id: 9,
-    src: 'https://images.pexels.com/photos/276671/pexels-photo-276671.jpeg?auto=compress&cs=tinysrgb&w=800',
+    src: front1,
     title: 'Beautiful Gardens',
     category: 'exterior'
   },
   {
     id: 10,
-    src: 'https://images.pexels.com/photos/271618/pexels-photo-271618.jpeg?auto=compress&cs=tinysrgb&w=800',
+    src: recept,
     title: 'Cozy Lounge Area',
-    category: 'amenities'
+    category: 'exterior'
   },
   {
     id: 11,
-    src: 'https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg?auto=compress&cs=tinysrgb&w=800',
+    src: outside,
     title: 'Sunset View',
     category: 'exterior'
   },
   {
     id: 12,
-    src: 'https://images.pexels.com/photos/2883049/pexels-photo-2883049.jpeg?auto=compress&cs=tinysrgb&w=800',
+    src: bathroom,
     title: 'Fitness Center',
     category: 'amenities'
   }

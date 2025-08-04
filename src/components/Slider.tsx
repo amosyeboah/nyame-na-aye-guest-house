@@ -1,24 +1,34 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
+import room from '../asset/room1.jpg';
+import reception1 from '../asset/reception1.jpg';
+import front1 from '../asset/front1.jpg';
+import outside from '../asset/outside.jpg';
+
 
 const slides = [
   {
-    image: 'https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    image: room,
     title: 'Nyame Na Aye Guest House',
-    subtitle: 'Your peaceful retreat awaits'
+    subtitle: 'Your peaceful retreat awaits',
   },
   {
-    image: 'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    image: front1,
     title: 'Luxurious Accommodations',
-    subtitle: 'Comfort and elegance combined'
+    subtitle: 'Comfort and elegance combined',
   },
   {
-    image: 'https://images.pexels.com/photos/919278/pexels-photo-919278.jpeg?auto=compress&cs=tinysrgb&w=1200',
-    title: 'Beautiful Gardens',
-    subtitle: 'Relax in our tranquil outdoor spaces'
-    
+    image: outside,
+    title: 'Luxurious Accommodations',
+    subtitle: 'Comfort and elegance combined',
   },
+  {
+    image: reception1,
+    title: 'Beautiful Space',
+    subtitle: 'Relax in our tranquil outdoor spaces',
+  }
 ];
+
 
 const Slider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);

@@ -1,36 +1,23 @@
 import React from 'react';
-import { Wifi, Coffee, Car, Utensils, Dumbbell, Minimize as Swimming, Shield, Clock, Headphones, MapPin, Camera, TreePine } from 'lucide-react';
+import { Wifi, Car, Utensils, Minimize as Swimming, Shield, Headphones, MapPin, Camera, TreePine } from 'lucide-react';
 
 const amenities = [
-  {
-    icon: Wifi,
-    title: 'Free High-Speed WiFi',
-    description: 'Complimentary wireless internet access throughout the property'
-  },
-  {
-    icon: Coffee,
-    title: 'Continental Breakfast',
-    description: 'Fresh breakfast served daily from 7:00 AM to 10:00 AM'
-  },
+
   {
     icon: Car,
     title: 'Free Parking',
-    description: 'Secure on-site parking available for all guests at no charge'
+    description: 'Convenient on-site parking for all guests'
   },
+  {
+    icon: Wifi,
+    title: 'Effortless internet access',
+    description: 'Complimentary internet access throughout the property'
+  },
+  
   {
     icon: Utensils,
     title: 'Restaurant & Bar',
     description: 'On-site dining with local cuisine and signature cocktails'
-  },
-  {
-    icon: Swimming,
-    title: 'Outdoor Pool',
-    description: 'Refreshing pool area with comfortable loungers and poolside service'
-  },
-  {
-    icon: Dumbbell,
-    title: 'Fitness Center',
-    description: 'Well-equipped gym with modern exercise equipment'
   },
   {
     icon: Shield,
@@ -38,9 +25,9 @@ const amenities = [
     description: 'Round-the-clock security for your peace of mind'
   },
   {
-    icon: Clock,
-    title: 'Concierge Service',
-    description: 'Helpful staff available to assist with tours and recommendations'
+    icon: Camera,
+    title: 'Media Lounge',
+    description: 'Unwind in our Media Lounge, featuring a large-screen TV and cozy seating.'
   },
   {
     icon: Headphones,
@@ -50,29 +37,24 @@ const amenities = [
 ];
 
 const nearbyAttractions = [
-  {
-    icon: MapPin,
-    name: 'Historic Downtown',
-    distance: '2 miles',
-    description: 'Charming downtown area with shops, restaurants, and historic architecture'
-  },
+  
   {
     icon: TreePine,
-    name: 'Serenity National Park',
+    name: 'Owabi National Park',
     distance: '5 miles',
     description: 'Beautiful hiking trails, wildlife viewing, and scenic overlooks'
   },
   {
-    icon: Camera,
-    name: 'Art District',
-    distance: '3 miles',
-    description: 'Local galleries, artist studios, and cultural exhibitions'
+    icon: MapPin,
+    name: 'Downtown',
+    distance: '2 miles',
+    description: 'Charming downtown area with shops, restaurants'
   },
   {
     icon: Swimming,
-    name: 'Crystal Lake',
-    distance: '7 miles',
-    description: 'Pristine lake perfect for swimming, boating, and fishing'
+    name: 'Owabi water works',
+    distance: '5 miles',
+    description: 'Relaxing lakeside area with picnic spots and water activities'
   }
 ];
 
@@ -135,7 +117,7 @@ const Amenities = () => {
           </div>
         </div>
 
-        {/* Additional Services */}
+        {/* Additional Services
         <div className="bg-white rounded-xl shadow-lg p-8">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8 text-center">
             Additional Services
@@ -166,7 +148,7 @@ const Amenities = () => {
               <p className="text-gray-600">Local tour reservations and activity planning assistance.</p>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

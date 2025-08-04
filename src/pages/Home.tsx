@@ -105,7 +105,7 @@ const Home = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
-                Why Choose Nyame Na Aye?
+                Why Choose Us?
               </h3>
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
@@ -113,7 +113,7 @@ const Home = () => {
                     <Wifi className="w-5 h-5 text-yellow-600" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900 mb-2">Free High-Speed WiFi</h4>
+                    <h4 className="font-semibold text-gray-900 mb-2">Effortless internet access</h4>
                     <p className="text-gray-600">Stay connected with complimentary high-speed internet throughout the property.</p>
                   </div>
                 </div>

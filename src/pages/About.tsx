@@ -1,5 +1,8 @@
 import React from 'react';
 import { Heart, Award, Users, Leaf } from 'lucide-react';
+import front1 from '../asset/front1.jpg'; 
+import recept from '../asset/recept.jpg'
+
 
 const About = () => {
   return (
@@ -23,28 +26,23 @@ const About = () => {
               <div className="space-y-4 text-gray-600">
                 <p>
                   Nyame Na Aye Executive Guest House was born from a dream to create a place where travelers could find 
-                  true peace and comfort away from home. Established in 2024, our boutique guest house 
-                  has been lovingly restored from a historic 1920s mansion, preserving its original 
-                  charm while adding modern luxury amenities.
+                  true peace and comfort away from home. Established in 2025, our new guest house offers a perfect blend of rustic charm and modern comfort, set against the backdrop of serene countryside landscapes.
                 </p>
                 <p>
-                  Located in the heart of the countryside, surrounded by rolling hills and Serenity environment, 
+                  Located in the heart of the countryside and Serenity environment, 
                  Nyame Na Aye Executive Guest House offers a perfect escape from the hustle and bustle of city life. Every room 
                   has been thoughtfully designed to provide maximum comfort while maintaining the property's 
                   historic character.
                 </p>
                 <p>
-                  Over the years, we've welcomed thousands of guests from around the world, each leaving 
-                  with cherished memories and a desire to return. Our commitment to exceptional hospitality 
-                  and attention to detail has made us a favorite destination for romantic getaways, 
-                  family vacations, and business retreats.
+                 We are excited to begin our journey and to welcome our new guests. Our promise is to offer more than just a place to sleep; we aim to create an unforgettable experience, with warm hospitality and a genuine connection to the peaceful environment that defines us. We look forward to sharing our slice of paradise with you.
                 </p>
               </div>
             </div>
             
             <div className="relative">
               <img
-                src="https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src="src/asset/front1.jpg"
                 alt="Historic Serenity Inn exterior"
                 className="rounded-lg shadow-xl w-full h-80 object-cover"
               />
@@ -58,17 +56,15 @@ const About = () => {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
             <div className="lg:col-span-1">
               <img
-                src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400"
+                src="src/asset/recept.jpg"
                 alt="Sarah & Michael Thompson"
                 className="rounded-lg shadow-lg w-full h-64 object-cover mx-auto"
               />
             </div>
             <div className="lg:col-span-2">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">A Message from the Owners</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">A heartfelt welcome from our home to yours.</h3>
               <blockquote className="text-gray-600 text-lg italic mb-4">
-                "When we first laid eyes on this beautiful property, we knew it was meant to be shared 
-                with others. Our vision was simple: create a place where every guest feels like family, 
-                where comfort meets elegance, and where memories are made to last a lifetime."
+                "When we envisioned our guest house, we dreamed of creating a place where guests could truly feel at home. Every detail, from the comfortable furnishings to the warm, inviting atmosphere, has been chosen with your comfort in mind. We believe that true hospitality lies in the small things—a warm greeting, a peaceful night's sleep, and the feeling of being genuinely cared for."
               </blockquote>
               <div className="text-gray-800">
                 <p className="font-semibold">CEO</p>
@@ -122,28 +118,6 @@ const About = () => {
               <p className="text-gray-600 text-sm">
                 We're committed to eco-friendly practices and preserving the natural beauty around us.
               </p>
-            </div>
-          </div>
-        </div>
-
-        {/* Awards & Recognition */}
-        <div className="bg-white rounded-xl shadow-lg p-8">
-          <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">Awards & Recognition</h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
-            <div>
-              <div className="text-3xl font-bold text-yellow-600 mb-2">2023</div>
-              <h4 className="font-semibold text-gray-900 mb-1">TripAdvisor Travelers' Choice</h4>
-              <p className="text-sm text-gray-600">Top 10% of accommodations worldwide</p>
-            </div>
-            <div>
-              <div className="text-3xl font-bold text-yellow-600 mb-2">2022</div>
-              <h4 className="font-semibold text-gray-900 mb-1">Boutique Hotel Awards</h4>
-              <p className="text-sm text-gray-600">Best Small Luxury Property</p>
-            </div>
-            <div>
-              <div className="text-3xl font-bold text-yellow-600 mb-2">2024</div>
-              <h4 className="font-semibold text-gray-900 mb-1">Green Key Certification</h4>
-              <p className="text-sm text-gray-600">Environmental excellence in hospitality</p>
             </div>
           </div>
         </div>

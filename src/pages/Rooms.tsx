@@ -2,12 +2,17 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Users, Wifi, Coffee, Bath, Tv, Car, Calendar } from 'lucide-react';
 import Button from '../components/Button';
+import room from '../asset/room1.jpg';
+import room2 from '../asset/room2.jpg';
+
+// import reception1 from '../asset/reception1.jpg';
+// import front1 from '../asset/front1.jpg';
 
 const rooms = [
   {
     id: 1,
     name: 'Executive Double Bed Room',
-    image: 'https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: room,
     price: 200,
     capacity: 2,
     features: ['Queen Bed', 'Private Bathroom', 'Air Condition', 'Work Desk'],
@@ -17,7 +22,7 @@ const rooms = [
   {
     id: 2,
     name: 'Standard Suite',
-    image: 'https://images.pexels.com/photos/279746/pexels-photo-279746.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: room2,
     price: 150,
     capacity: 2,
     features: ['Single Bed', 'Work Desk', 'Private Batroom'],

@@ -20,7 +20,7 @@ const Contact = () => {
     e.preventDefault();
     console.log('Form submitted:', formData);
     // Handle form submission here
-    alert('Thank you for your message! We\'ll get back to you soon.');
+    alert('Thank you for your message! We\'ll get back to you soon, or you can also reach us via our whatsapp for faster response.');
     setFormData({ name: '', email: '', phone: '', subject: '', message: '' });
   };
 
@@ -33,7 +33,7 @@ const Contact = () => {
           </h1>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
             We'd love to hear from you! Get in touch to make a reservation, ask questions, 
-            or learn more about Serenity Inn.
+            or learn more about Nyame Na Aye Guest House.
           </p>
         </div>
 
@@ -50,9 +50,10 @@ const Contact = () => {
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-1">Address</h3>
                   <p className="text-gray-600">
-                    AKROPONG - ESAASE<br />
-                    MANAGER JUNCTION, BEHIND KING JESUS<br />
-                    GHANA
+                   <b>AKROPONG - ESAASE</b><br />
+                    MANAGER JUNCTION, BEHIND <br/>
+                     KING JESUS SCHOOL,
+                    HOLY LAND CAMPUS<br />
                   </p>
                 </div>
               </div>
@@ -63,7 +64,9 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-1">Phone</h3>
-                  <p className="text-gray-600">+1 (555) 123-4567</p>
+                  <p className="text-gray-600">0245-611 999</p>
+                  <p className="text-gray-600">0593-771 893</p>
+
                   <p className="text-sm text-gray-500">Available 24/7 for reservations</p>
                 </div>
               </div>
@@ -86,7 +89,7 @@ const Contact = () => {
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-1">Front Desk Hours</h3>
                   <div className="text-gray-600">
-                    <p>Monday - Sunday: 7:00 AM - 11:00 PM</p>
+                    <p>Monday - Sunday: 6:00 AM - 11:00 PM</p>
                     <p className="text-sm text-gray-500">24/7 emergency assistance available</p>
                   </div>
                 </div>
@@ -97,14 +100,14 @@ const Contact = () => {
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <div className="h-64 bg-gray-200 relative">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.398!2d-74.006!3d40.7128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDBzNDInMjguNiJOIDc0czAwJzIxLjYiVw!5e0!3m2!1sen!2sus!4v1234567890"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d751.8093277405278!2d-1.71805446188652!3d6.7371478877657776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdb99001f50f051%3A0xfdc0e3a90a4ee6f7!2sKing%20Jesus%20Palace%20School-%20Holyland%20Campus!5e0!3m2!1sen!2sgh!4v1754242572031!5m2!1sen!2sgh"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Serenity Inn Location"
+                  title="Nyame Na Aye Guest House Location"
                 />
               </div>
             </div>
