@@ -1,8 +1,5 @@
 import React from 'react';
 import { Heart, Award, Users, Leaf } from 'lucide-react';
-import front1 from '../asset/front1.jpg'; 
-import recept from '../asset/recept.jpg'
-
 
 const About = () => {
   return (
