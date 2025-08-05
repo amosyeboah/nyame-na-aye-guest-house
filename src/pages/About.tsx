@@ -1,5 +1,8 @@
 import React from 'react';
 import { Heart, Award, Users, Leaf } from 'lucide-react';
+import front1 from '../asset/front1.jpg'; 
+import recept from '../asset/recept.jpg';
+
 
 const About = () => {
   return (
@@ -39,8 +42,8 @@ const About = () => {
             
             <div className="relative">
               <img
-                src="src/asset/front1.jpg"
-                alt="Historic Serenity Inn exterior"
+                src={front1}
+                alt="Nyame Na Aye Guest House"
                 className="rounded-lg shadow-xl w-full h-80 object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-lg"></div>
@@ -53,8 +56,8 @@ const About = () => {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
             <div className="lg:col-span-1">
               <img
-                src="src/asset/recept.jpg"
-                alt="Sarah & Michael Thompson"
+                src={recept}
+                alt="Owner's message"
                 className="rounded-lg shadow-lg w-full h-64 object-cover mx-auto"
               />
             </div>
